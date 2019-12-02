@@ -2,6 +2,7 @@ package tests.day1;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.Test;
 
 public class calisma {
     public static void main(String[] args) {
@@ -11,7 +12,7 @@ public class calisma {
         ChromeDriver driver = new ChromeDriver();
 
         driver.get("http://google.com");
-
+        driver.manage().window().maximize();
         String actualResult = driver.getTitle();
         String expectedResult = "Google";
         if(actualResult.equals(expectedResult)){
@@ -25,6 +26,7 @@ public class calisma {
       driver.navigate().back();
 
         System.out.println(driver.getTitle());
+
 
         driver.close();
     }
