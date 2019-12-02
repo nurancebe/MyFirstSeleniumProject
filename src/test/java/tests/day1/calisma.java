@@ -20,6 +20,7 @@ public class calisma {
         }else {
             System.out.println("Test failed");
         }
+        driver.utilities.wait(2)
         driver.navigate().to("http://amazon.com");
 
       driver.navigate().refresh();
