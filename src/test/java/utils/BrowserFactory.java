@@ -7,7 +7,7 @@
 // if browser = chrome, then return chromedriver object
 
 
-package utilities;
+package utils;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
