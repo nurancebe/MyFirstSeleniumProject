@@ -1,9 +1,7 @@
 blue
 red
 green
-black
-yellow
-bordeaux
-brown
 
-pink
+
+
+
