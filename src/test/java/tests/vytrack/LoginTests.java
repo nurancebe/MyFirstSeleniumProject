@@ -1,6 +1,3 @@
-
-
-
 package tests.vytrack;
 
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -13,12 +10,6 @@ import utils.Driver;
 
 
 //we write extends TestBase to inherit @before and @after methods
-//this class will be dedicated to tests related to Login page only
-//we don't have to find elements here
-//we should find elements in page classes only
-//we write extends TestBase to inherit @before and @after methods
-
-//FOR LoGIN PAGE ONLYYYYY
 //this class will be dedicated to tests related to Login page only
 //we don't have to find elements here
 //we should find elements in page classes only

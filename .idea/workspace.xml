@@ -2,7 +2,65 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="663c423a-226e-4784-aa5e-0845125163f4" name="Default Changelist" comment="added page maximize funnction">
-      <change beforePath="$PROJECT_DIR$/colors.txt" beforeDir="false" afterPath="$PROJECT_DIR$/colors.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notes.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/CreateCarPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/VehiclesPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/vytrack/CreateCarTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/vytrack/SmokeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/utils/ExcelUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/BasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/CreateCalendarEventPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/CreateCalendarEventPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/day12/FramesPractice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/day12/FramesPractice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/day12/JSExecutorPractice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/day12/JSExecutorPractice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/vytrack/CalendarEventsTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/vytrack/CalendarEventsTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/vytrack/LoginTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/vytrack/LoginTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utils/BrowserUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/BrowserUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utils/ConfigurationReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/ConfigurationReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utils/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/Driver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/java_code/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/java_code/Person.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/java_code/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/java_code/Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/BasePage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/CalendarEventsPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/CreateCalendarEventPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/LoginPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/TestBase.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/day1/calisma.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/day10/FileUploading.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/day10/PopupPractice.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/day10/WindowSwitching.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/day12/ActionsClassHoverPractice.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/day12/DragAndDropPractice.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/day12/FramesPractice.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/day12/JSExecutorPractice.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/day14/ConfigReaderTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/day14/LoginTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/day3/NavigationPractice.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/day4/EnterTextPractice.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/day4/FindElementsTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/day4/ReadAttributesTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/day4/calisma4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/day5/TestsForNameLocator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/day5/TestsForTagNameLocator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/day6/AbsoluteXpathTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/day6/BitrixLogin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/day7/CssSelectorPractice.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/day7/calismaCssSelector.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/day8/CalismaDropdowns.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/day8/CheckBoxes.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/day8/Dropdowns.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/day8/RadioButtons.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/day8/calismaRadioBut.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/vytrack/CalendarEventsTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/vytrack/CreateCalendarEventTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/vytrack/LoginTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/vytrack/NewCalendarEventsTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/utils/BrowserUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/utils/ConfigurationReader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/utils/Driver.class" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -39,7 +97,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Diff &amp; Merge" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -53,17 +111,17 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.NewCalendarEventsTests">
-    <configuration name="CalendarEventsTests" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.DragAndDropPractice.test1">
+    <configuration name="ActionsClassHoverPractice" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="MyFirstSeleniumProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.vytrack.*" />
+          <option name="PATTERN" value="tests.day12.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tests.vytrack" />
-      <option name="MAIN_CLASS_NAME" value="tests.vytrack.CalendarEventsTests" />
+      <option name="PACKAGE_NAME" value="tests.day12" />
+      <option name="MAIN_CLASS_NAME" value="tests.day12.ActionsClassHoverPractice" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -71,33 +129,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConfigReaderTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="DragAndDropPractice.test1" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="MyFirstSeleniumProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.day14.*" />
+          <option name="PATTERN" value="tests.day12.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tests.day14" />
-      <option name="MAIN_CLASS_NAME" value="tests.day14.ConfigReaderTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ConfigReaderTest.test1" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="MyFirstSeleniumProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.day14.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests.day14" />
-      <option name="MAIN_CLASS_NAME" value="tests.day14.ConfigReaderTest" />
+      <option name="PACKAGE_NAME" value="tests.day12" />
+      <option name="MAIN_CLASS_NAME" value="tests.day12.DragAndDropPractice" />
       <option name="METHOD_NAME" value="test1" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -106,16 +147,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CreateCalendarEventTests" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="FramesPractice" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="MyFirstSeleniumProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.vytrack.*" />
+          <option name="PATTERN" value="tests.day12.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tests.vytrack" />
-      <option name="MAIN_CLASS_NAME" value="tests.vytrack.CreateCalendarEventTests" />
+      <option name="PACKAGE_NAME" value="tests.day12" />
+      <option name="MAIN_CLASS_NAME" value="tests.day12.FramesPractice" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -123,16 +164,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NewCalendarEventsTests" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="JSExecutorPractice" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="MyFirstSeleniumProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.vytrack.*" />
+          <option name="PATTERN" value="tests.day12.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tests.vytrack" />
-      <option name="MAIN_CLASS_NAME" value="tests.vytrack.NewCalendarEventsTests" />
+      <option name="PACKAGE_NAME" value="tests.day12" />
+      <option name="MAIN_CLASS_NAME" value="tests.day12.JSExecutorPractice" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WebTablesPractice" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="MyFirstSeleniumProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.day13.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests.day13" />
+      <option name="MAIN_CLASS_NAME" value="tests.day13.WebTablesPractice" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -142,11 +200,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.NewCalendarEventsTests" />
-        <item itemvalue="TestNG.ConfigReaderTest" />
-        <item itemvalue="TestNG.ConfigReaderTest.test1" />
-        <item itemvalue="TestNG.CalendarEventsTests" />
-        <item itemvalue="TestNG.CreateCalendarEventTests" />
+        <item itemvalue="TestNG.DragAndDropPractice.test1" />
+        <item itemvalue="TestNG.ActionsClassHoverPractice" />
+        <item itemvalue="TestNG.FramesPractice" />
+        <item itemvalue="TestNG.JSExecutorPractice" />
+        <item itemvalue="TestNG.WebTablesPractice" />
       </list>
     </recent_temporary>
   </component>
