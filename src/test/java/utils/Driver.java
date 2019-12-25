@@ -9,7 +9,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
     public class Driver {
         private static WebDriver driver;
 
-        // you cannot do like this, if constructor is private Driver obj = new Driver()
+        // if constructor is private you cannot do like this, ========>     Driver obj = new Driver()
 
         private Driver() {
 
@@ -38,7 +38,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
                         break;
                     default:
 
-                        //if browser type is wrong, throw exception.
+                        //if browser type is wrong, stop test and ; throw exception.
                         //no browser will be opened
 
                         throw new RuntimeException("Wrong browser type!");

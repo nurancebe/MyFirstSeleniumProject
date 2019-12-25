@@ -15,6 +15,7 @@ public class ConfigurationReader {
 
             try {
 
+
                 //provides access to file
                 //try/catch block stands for handling exceptions
                 //if exception occurs, code inside a catch block will be executed
@@ -24,20 +25,26 @@ public class ConfigurationReader {
 
                 FileInputStream fileInputStream = new FileInputStream("configuration.properties");
 
+
+
                 //initialize properties object
 
                 configFile = new Properties();
+
+
 
                 //load configuration.properties file
 
                 configFile.load(fileInputStream);
 
+                // close input stream
+                fileInputStream.close();
 
             } catch (IOException e) {
 
 
                 System.out.println("Failed to load properties file!");
-                e.printStackTrace();
+                e.printStackTrace();   //print error information
             }
         }
 
