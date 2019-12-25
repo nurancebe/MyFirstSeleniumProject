@@ -1,1 +1,11 @@
 blue
+<<<<<<< HEAD
+=======
+red
+purple
+black
+yellow
+brown
+white
+bordeaux
+>>>>>>> 058a284d6ec051b6c1c1ef4c3e698e3ea347aee8
