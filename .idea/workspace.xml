@@ -4,12 +4,6 @@
     <list default="true" id="663c423a-226e-4784-aa5e-0845125163f4" name="Default Changelist" comment="added page maximize funnction">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/colors.txt" beforeDir="false" afterPath="$PROJECT_DIR$/colors.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/java_code/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/java_code/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/java_code/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/java_code/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/utils/ConfigurationReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/ConfigurationReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/utils/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/Driver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/utils/ConfigurationReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/utils/ConfigurationReader.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -41,6 +35,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ChangesTree.GroupingKeys" value="module" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
