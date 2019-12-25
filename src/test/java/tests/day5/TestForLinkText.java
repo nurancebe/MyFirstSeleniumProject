@@ -2,7 +2,7 @@ package tests.day5;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import utilities.BrowserFactory;
+import utils.BrowserFactory;
 
 public class TestForLinkText {
 

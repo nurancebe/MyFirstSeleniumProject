@@ -17,7 +17,7 @@ package tests.day3;
 
 
 import org.openqa.selenium.WebDriver;
-import utilities.BrowserFactory;
+import utils.BrowserFactory;
 
 public class BrowserFactoryTest {
 

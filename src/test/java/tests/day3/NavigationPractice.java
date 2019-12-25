@@ -6,8 +6,9 @@
 package tests.day3;
 
 import org.openqa.selenium.WebDriver;
-import utilities.BrowserFactory;
-import utilities.BrowserUtilities;
+import utils.BrowserFactory;
+
+import utils.BrowserUtils;
 
 public class NavigationPractice {
 
@@ -20,7 +21,7 @@ public class NavigationPractice {
         driver.get("http://google.com");
 
 
-        BrowserUtilities.wait(3);
+        BrowserUtils.wait(3);
 
         //HOW TO PRINT PAGE TITLE??
         System.out.println(driver.getTitle());

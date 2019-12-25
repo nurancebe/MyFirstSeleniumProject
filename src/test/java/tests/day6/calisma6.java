@@ -2,7 +2,7 @@ package tests.day6;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import utilities.BrowserFactory;
+import utils.BrowserFactory;
 
 public class calisma6 {
     public static void main(String[] args) {

@@ -2,13 +2,13 @@ package tests.day10;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-
+import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
-import utilities.BrowserFactory;
-import utilities.BrowserUtilities;
+import utils.BrowserFactory;
+import utils.BrowserUtils;
 
 import java.util.Set;
 
@@ -27,7 +27,7 @@ public class WindowSwitching {
         driver.findElement(By.linkText("New tab")).click();
         //after 3 seconds, another website will be opened,in the second window
         //selenium doesn't switch automatically to the new window
-        BrowserUtilities.wait(5);
+        BrowserUtils.wait(5);
         System.out.println(driver.getTitle());
         Assert.assertEquals(driver.getTitle(), "Practice", "Title is wrong!");
     }
@@ -39,7 +39,7 @@ public class WindowSwitching {
         String oldWindow = driver.getWindowHandle();
         //after 3 seconds, another website will be opened,in the second window
         //selenium doesn't switch automatically to the new window
-        BrowserUtilities.wait(5);
+        BrowserUtils.wait(5);
         //in the selenium every window has an id. That id calls window handle
         //to read window handle we use a method getWindowHandle()
         //after new window was opened, we can get list of all window id's/window handles
@@ -61,24 +61,13 @@ public class WindowSwitching {
         //let's verify that title of new window is a Fresh tab
         System.out.println(driver.getTitle());
         Assert.assertEquals(driver.getTitle(), "Fresh tab", "Title is wrong!");
-
-
-       //===================================================================
-
         //comeback to original page
         //we can build a function, that will jump in between windows
         //based on page title, we can determine where to stop
 
-
-
-
-
-
-
-        String pageTitle = "Practice";          //title of the page that we want
+        String pageTitle = "Practice"; //title of the page that we want
 
         for (String windowHandle : windowHandles) {
-
             //keep jumping from window to window
             driver.switchTo().window(windowHandle);
             //once we found a correct page title

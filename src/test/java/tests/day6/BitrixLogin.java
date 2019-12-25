@@ -3,10 +3,8 @@ package tests.day6;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import utilities.BrowserFactory;
-import utilities.BrowserUtilities;
-import utilities.BrowserFactory;
-import utilities.BrowserUtilities;
+import utils.BrowserFactory;
+import utils.BrowserUtils;
 
 public class BitrixLogin {
     //    helpdesk59@cybertekschool.com
@@ -30,7 +28,7 @@ public class BitrixLogin {
         driver.findElement(By.xpath("//*[@placeholder='Password']")).sendKeys("UserUser");
         //click on login button
         driver.findElement(By.xpath("//input[starts-with(@value, 'Log')]")).click();
-        BrowserUtilities.wait(3);
+        BrowserUtils.wait(3);
         driver.quit();
     }
 }

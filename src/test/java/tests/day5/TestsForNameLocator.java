@@ -7,8 +7,9 @@ package tests.day5;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import utilities.BrowserFactory;
-import utilities.BrowserUtilities;
+import utils.BrowserFactory;
+
+import utils.BrowserUtils;
 
 public class TestsForNameLocator {
 
@@ -23,7 +24,7 @@ public class TestsForNameLocator {
         driver.findElement(By.name("full_name")).sendKeys("Test User");
         driver.findElement(By.name("email")).sendKeys(("test_email@email.com"));
         driver.findElement(By.name("wooden_spoon")).click();
-        BrowserUtilities.wait(4);
+        BrowserUtils.wait(4);
         driver.quit();
 
 

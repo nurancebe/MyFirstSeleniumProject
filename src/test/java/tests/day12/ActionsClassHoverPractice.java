@@ -8,8 +8,8 @@ import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
-import utilities.BrowserFactory;
-import utilities.BrowserUtilities;
+import utils.BrowserFactory;
+import utils.BrowserUtils;
 
 public class ActionsClassHoverPractice {
 
@@ -34,14 +34,13 @@ public class ActionsClassHoverPractice {
         // .perform() stands for triggering actions
         action.moveToElement(image1).perform();
 
-        BrowserUtilities.wait(3);//for demo
+        BrowserUtils.wait(3);//for demo
         // h5 is a grand child of .figure:nth-of-type(1) this element that contains image
-        //this is for text
         WebElement textOfImageElement = driver.findElement(By.cssSelector(".figure:nth-of-type(1) h5"));
 
         String expectedText = "name: user1";
         String actualText = textOfImageElement.getText();
-        System.out.println(textOfImageElement.getText());
+
         Assert.assertEquals(actualText, expectedText);
 
     }
@@ -51,7 +50,7 @@ public class ActionsClassHoverPractice {
         Actions action = new Actions(driver);
         for (int i = 1; i <= 3; i++) {
             action.moveToElement(driver.findElement(By.cssSelector(".figure:nth-of-type(" + i + ")"))).perform();
-            BrowserUtilities.wait(3);
+            BrowserUtils.wait(3);
             String name = driver.findElement(By.cssSelector(".figure:nth-of-type(" + i + ") h5")).getText();
             System.out.println(name);
             Assert.assertEquals(name, "name: user"+i);

@@ -14,8 +14,9 @@ package tests.day7;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import utilities.BrowserFactory;
-import utilities.BrowserUtilities;
+import utils.BrowserFactory;
+
+import utils.BrowserUtils;
 
 import java.util.List;
 
@@ -31,7 +32,7 @@ public class calismaCssSelector {
             for (WebElement button: buttons){
 
                 button.click();
-                BrowserUtilities.wait(1);
+                BrowserUtils.wait(1);
 
                 WebElement message = driver.findElement(By.cssSelector("#result"));
 

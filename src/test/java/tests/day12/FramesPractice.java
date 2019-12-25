@@ -6,13 +6,12 @@ import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
-import utilities.BrowserUtilities;
-import utilities.BrowserFactory;
+
+import utils.BrowserFactory;
+import utils.BrowserUtils;
 
 
-
-
-    public class FramesPractice {
+public class FramesPractice {
         private WebDriver driver;
 
         @BeforeMethod
@@ -41,11 +40,11 @@ import utilities.BrowserFactory;
             String actualText = inputArea.getText();
             Assert.assertEquals(actualText, expectedText);
 
-            BrowserUtilities.wait(4);
+            BrowserUtils.wait(4);
 
             inputArea.clear();//to delete text
 
-            BrowserUtilities.wait(4);
+            BrowserUtils.wait(4);
 
             inputArea.sendKeys("Java is fun!");
 

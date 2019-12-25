@@ -29,8 +29,8 @@ package tests.day4;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import utilities.BrowserFactory;
-import utilities.BrowserUtilities;
+import utils.BrowserFactory;
+import utils.BrowserUtils;
 
     public class FindElementsTest {
     public static void main(String[] args) {
@@ -54,7 +54,7 @@ import utilities.BrowserUtilities;
             System.out.println("Actual Title: "+actualTitle);
         }
 
-        BrowserUtilities.wait(3);
+        BrowserUtils.wait(3);
         driver.close();
 
 

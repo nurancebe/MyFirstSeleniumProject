@@ -6,8 +6,10 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.testng.annotations.Test;
-import utilities.BrowserFactory;
-import utilities.BrowserUtilities;
+
+
+import utils.BrowserFactory;
+import utils.BrowserUtils;
 
 public class DragAndDropPractice {
 
@@ -18,7 +20,7 @@ public class DragAndDropPractice {
         driver.manage().window().maximize();
 
         //click on accept cookies
-        BrowserUtilities.wait(4);//for demo
+        BrowserUtils.wait(4);//for demo
         driver.findElement(By.cssSelector("button[title='Accept Cookies']")).click();
 
         Actions actions = new Actions(driver);
@@ -27,13 +29,13 @@ public class DragAndDropPractice {
         WebElement moon = driver.findElement(By.id("draggable"));
         WebElement earth = driver.findElement(By.id("droptarget"));
 
-        BrowserUtilities.wait(4);//for demo
+        BrowserUtils.wait(4);//for demo
 
 //      * @param source element to emulate button down at.
 //      * @param target element to move to and release the mouse at.
         actions.dragAndDrop(moon, earth).perform();
 
-        BrowserUtilities.wait(3);//for demo
+        BrowserUtils.wait(3);//for demo
 
         driver.quit();
     }

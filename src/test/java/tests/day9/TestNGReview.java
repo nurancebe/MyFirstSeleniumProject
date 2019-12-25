@@ -6,7 +6,7 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
-import utilities.BrowserFactory;
+import utils.BrowserFactory;
 
 public class TestNGReview {
     //whatever is common among tests, can go into @beforemethod and @aftermethod

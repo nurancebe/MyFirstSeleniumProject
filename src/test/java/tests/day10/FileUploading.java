@@ -4,11 +4,11 @@ package tests.day10;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
-import utilities.BrowserFactory;
+import utils.BrowserFactory;
 import org.openqa.selenium.By;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
-import utilities.BrowserUtilities;
+import utils.BrowserUtils;
 public class FileUploading {
 
 
@@ -32,7 +32,7 @@ public class FileUploading {
         //right click > copy option > hold alt key > enter ==== copy as a path way
         //click submit
         driver.findElement(By.id("file-submit")).click();
-        BrowserUtilities.wait(5);
+        BrowserUtils.wait(5);
         //make sre that it's your file name
         String expectedFileName = "Ayakkabi.pdf";
 

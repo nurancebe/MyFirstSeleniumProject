@@ -9,8 +9,8 @@ import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
-import utilities.BrowserFactory;
-import utilities.BrowserUtilities;
+import utils.BrowserFactory;
+import utils.BrowserUtils;
 
 import java.util.List;
 
@@ -41,7 +41,7 @@ public class Dropdowns {
         // also you can select by value, or index
         //<option value="1">Option 1</option> value is 1, Option 1 is a visible text, in between >Text< (in between angled brackets)
         select.selectByVisibleText("Option 2");
-        BrowserUtilities.wait(2);
+        BrowserUtils.wait(2);
         //how to verify that option 2 is selected
         //select.getFirstSelectedOption() - to get selected option/this is what is selected
         Assert.assertEquals(select.getFirstSelectedOption().getText(), "Option 2");
@@ -65,7 +65,7 @@ public class Dropdowns {
 //        <option value="MD">Maryland</option>
         //we can use tes, value or index for selection
         select.selectByValue("MD");
-        BrowserUtilities.wait(2);
+        BrowserUtils.wait(2);
         Assert.assertEquals(select.getFirstSelectedOption().getText(), "Maryland");
     }
 

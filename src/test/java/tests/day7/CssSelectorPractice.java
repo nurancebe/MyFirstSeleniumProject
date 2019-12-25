@@ -16,8 +16,8 @@ package tests.day7;
 import org.openqa.selenium.By;
         import org.openqa.selenium.WebDriver;
         import org.openqa.selenium.WebElement;
-        import utilities.BrowserFactory;
-        import utilities.BrowserUtilities;
+        import utils.BrowserFactory;
+        import utils.BrowserUtils;
 
         import java.util.List;
 
@@ -43,7 +43,7 @@ public class CssSelectorPractice {
         for (WebElement button: buttons){
             //and click on every button one by one
             button.click();
-            BrowserUtilities.wait(1);
+            BrowserUtils.wait(1);
             //get the message after click
             WebElement message = driver.findElement(By.cssSelector("#result"));
             //print a text of that message

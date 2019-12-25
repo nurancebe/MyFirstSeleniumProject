@@ -7,8 +7,9 @@ import org.openqa.selenium.WebElement;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
-import utilities.BrowserFactory;
-import utilities.BrowserUtilities;
+import utils.BrowserFactory;
+
+import utils.BrowserUtils;
 
 //to use for create a website === we need
 //javascript executer  interface  ===== muscles action
@@ -35,16 +36,16 @@ public class JSExecutorPractice {
 //            x-coord is the horizontal pixel value that you want to scroll by.
 //            y-coord is the vertical pixel value that you want to scroll by.
             js.executeScript("window.scrollBy(0, 500)");
-            BrowserUtilities.wait(5);
+            BrowserUtils.wait(5);
         }
-        BrowserUtilities.wait(5);
+        BrowserUtils.wait(5);
     }
 
     @Test(description = "Scrolling with JSexecutor to specific element")
     public void test2(){
         driver.get("http://practice.cybertekschool.com/large");
         WebElement link = driver.findElement(By.linkText("Cybertek School"));
-        BrowserUtilities.wait(5);
+        BrowserUtils.wait(5);
 
 //        js code from the browser
 //        var footer = document.getElementById('page-footer');
@@ -57,7 +58,7 @@ public class JSExecutorPractice {
         //arguments it's an array of webelements after comma
         //arguments[0] = link web element, it can be any web element
         js.executeScript("arguments[0].scrollIntoView(true)", link);
-        BrowserUtilities.wait(5);
+        BrowserUtils.wait(5);
     }
 
     //    var btn1 = document.getElementsByTagName('a')[1];
@@ -68,7 +69,7 @@ public class JSExecutorPractice {
         //Example 1 is a beginning of the phrase <a href='http:'>Example 1.....</a>
         WebElement link1 = driver.findElement(By.partialLinkText("Example 1"));
 
-        BrowserUtilities.wait(5);//wait for demo
+        BrowserUtils.wait(5);//wait for demo
 
         JavascriptExecutor js = (JavascriptExecutor) driver;
         //arguments[0] = link1 web element
@@ -77,7 +78,7 @@ public class JSExecutorPractice {
         //arguments[0].click() is an alternative for link1.click()
         js.executeScript("arguments[0].click()", link1);
 
-        BrowserUtilities.wait(5);//wait for demo
+        BrowserUtils.wait(5);//wait for demo
     }
 
 //this is for print name to the name button
@@ -96,16 +97,16 @@ public class JSExecutorPractice {
         JavascriptExecutor js = (JavascriptExecutor) driver;
         //enter full name
         //arguments[0].setAttribute('value', 'John Smith') it's the same as name.sendKeys("John Smith");
-        BrowserUtilities.wait(5);//wait for demo
+        BrowserUtils.wait(5);//wait for demo
         js.executeScript("arguments[0].setAttribute('value', 'John Smith')", name);
 
-        BrowserUtilities.wait(5);//wait for demo
+        BrowserUtils.wait(5);//wait for demo
         js.executeScript("arguments[0].setAttribute('value', 'someemail@email.com')", email);
 
-        BrowserUtilities.wait(5);//wait for demo
+        BrowserUtils.wait(5);//wait for demo
         js.executeScript("arguments[0].click()", submitButton);
 
-        BrowserUtilities.wait(5);//wait for demo
+        BrowserUtils.wait(5);//wait for demo
     }
 
 
