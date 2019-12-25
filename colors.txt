@@ -5,3 +5,4 @@ black
 yellow
 brown
 white
+bordeaux
