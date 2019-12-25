@@ -10,7 +10,7 @@ public class VehiclesPage extends BasePage{
     public WebElement createACarElement;
 
     /**
-     * Use this method to click on "Create a Car" button
+     * Use this method to click on "Create Car" button
      * Method already contains waits to handle synchronization issues
      */
     public void clickToCreateACar(){
