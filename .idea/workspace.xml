@@ -1,66 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="663c423a-226e-4784-aa5e-0845125163f4" name="Default Changelist" comment="added page maximize funnction">
-      <change afterPath="$PROJECT_DIR$/notes.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/CreateCarPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/VehiclesPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/vytrack/CreateCarTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/vytrack/SmokeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/utils/ExcelUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="663c423a-226e-4784-aa5e-0845125163f4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/BasePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/CreateCalendarEventPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/CreateCalendarEventPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/TestBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/day12/FramesPractice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/day12/FramesPractice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/day12/JSExecutorPractice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/day12/JSExecutorPractice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/vytrack/CalendarEventsTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/vytrack/CalendarEventsTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/vytrack/LoginTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/vytrack/LoginTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/utils/BrowserUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/BrowserUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/utils/ConfigurationReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/ConfigurationReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/utils/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/Driver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/java_code/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/java_code/Person.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/java_code/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/java_code/Student.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/BasePage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/CalendarEventsPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/CreateCalendarEventPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/LoginPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/TestBase.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/day1/calisma.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/day10/FileUploading.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/day10/PopupPractice.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/day10/WindowSwitching.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/day12/ActionsClassHoverPractice.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/day12/DragAndDropPractice.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/day12/FramesPractice.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/day12/JSExecutorPractice.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/day14/ConfigReaderTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/day14/LoginTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/day3/NavigationPractice.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/day4/EnterTextPractice.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/day4/FindElementsTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/day4/ReadAttributesTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/day4/calisma4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/day5/TestsForNameLocator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/day5/TestsForTagNameLocator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/day6/AbsoluteXpathTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/day6/BitrixLogin.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/day7/CssSelectorPractice.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/day7/calismaCssSelector.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/day8/CalismaDropdowns.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/day8/CheckBoxes.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/day8/Dropdowns.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/day8/RadioButtons.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/day8/calismaRadioBut.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/vytrack/CalendarEventsTests.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/vytrack/CreateCalendarEventTests.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/vytrack/LoginTests.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/vytrack/NewCalendarEventsTests.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/utils/BrowserUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/utils/ConfigurationReader.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/utils/Driver.class" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -240,7 +182,14 @@
       <option name="project" value="LOCAL" />
       <updated>1577258332851</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="added page maximize funnction">
+      <created>1577305508225</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1577305508225</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
