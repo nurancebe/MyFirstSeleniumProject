@@ -2,12 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="663c423a-226e-4784-aa5e-0845125163f4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/vytrack/calisma.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smoke_test.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/CreateCarPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/CreateCarPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/VehiclesPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/VehiclesPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/vytrack/calisma.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -94,23 +95,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FramesPractice" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="MyFirstSeleniumProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.day12.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests.day12" />
-      <option name="MAIN_CLASS_NAME" value="tests.day12.FramesPractice" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="NewCalendarEventsTests" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="MyFirstSeleniumProject" />
       <extension name="coverage">
@@ -145,13 +129,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="/Users/mncebe/IdeaProjects/MyFirstSeleniumProject/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="MyFirstSeleniumProject" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.SmokeTest" />
+        <item itemvalue="TestNG./Users/mncebe/IdeaProjects/MyFirstSeleniumProject/testng.xml" />
         <item itemvalue="TestNG.NewCalendarEventsTests" />
         <item itemvalue="TestNG.DragAndDropPractice.test1" />
         <item itemvalue="TestNG.ActionsClassHoverPractice" />
-        <item itemvalue="TestNG.FramesPractice" />
       </list>
     </recent_temporary>
   </component>
@@ -201,7 +195,14 @@
       <option name="project" value="LOCAL" />
       <updated>1577306455485</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="added page maximize funnction">
+      <created>1577316770807</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1577316770807</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
