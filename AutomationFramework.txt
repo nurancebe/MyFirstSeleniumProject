@@ -1,0 +1,87 @@
+Automation Framework
+================================================================
+Framework is combination of tools that we use to develop
+some program.Our automation's scripts is also program.
+We write in java we click run  and  sth happens
+================================================================
+Java
+Java is our programming language
+
+================================================================
+
+Selenium WebDriver
+It is a tool for web Automation
+selenium can test only UI
+================================================================
+IntelliJ
+is our IDE
+================================================================
+TestNG
+is unit testing ,anton?? testing framework.TestNG provides annotations
+@AfterMethod @BeforeMethod
+@Test .... methods...
+xml runner
+data provider
+testListener??
+================================================================
+Maven
+it is project builder tool
+we manage libraries through dependency.Maven download libraries
+automatically from internet
+================================================================
+Extent Report
+Essential part of testing result.
+how we can provide
+       and justify
+       and demonstrate
+our test results
+to managements???
+How easly debug Regretion suit test result?
+when we have a lot of test ;how we gonna verify failures?
+report makes this processes much easier.
+ratio???
+report is face of our test result
+its a little bit heavy
+================================================================
+Java JDBC
+java DAta Base connectivity
+database  is a perfect place for storing data
+to connect your java program ; it doest matter if it is an application
+or automation frame work, we should use an interface; kind of connector.
+you can connect your java program with data base; use JDBC;connect two different things
+JDBC is used backend testing ; to verify the data in our application is also store
+ in database
+UI???
+
+
+================================================================
+Apache POI
+================================================================
+Log4J
+it is kind of logger or recorder
+to track of history also record date time and reason of fail
+when while
+kind of system out
+================================================================
+REST-Assured
+web application consist of two sides;
+-one  application is responsible for
+ USER INTERFACE
+
+-the other application is responsible for
+BUSINESS LOGIC; BACK END
+
+back end is connected with user interface through some kind of interface;
+This is called API.
+RestAssured allows us to connect to the back end and perform testing
+without using interface so we can directly interact with a business  logic
+of WebApplication.So you avoid UI just directly  connect back end of application
+bennefit is you can test data immediately at back end dont have to wait until ui ready
+(it is a just demonstration ui)
+and test is much faster
+selenium can test only UI but RestAssured is a library and helps to interract
+with a back end of a website; web application directly and do testing
+and this test will be much faster than selenium
+
+
+================================================================

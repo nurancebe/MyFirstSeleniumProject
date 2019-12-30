@@ -1,14 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="663c423a-226e-4784-aa5e-0845125163f4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/smoke_test.xml" afterDir="false" />
+    <list default="true" id="663c423a-226e-4784-aa5e-0845125163f4" name="Default Changelist" comment="added page maximize funnction">
+      <change afterPath="$PROJECT_DIR$/AutomationFramework.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Review.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cars.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/day20_ddt_with_excel/LoginTestsWithExcel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/day22_Review/ReadTestDataFromExcelFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/whatsyourFrameWork" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/smoke_test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/smoke_test.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/tests/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/TestBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/vytrack/calisma.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/vytrack/CreateCarTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/vytrack/CreateCarTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/vytrack/CreateCarTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/vytrack/CreateCarTests.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -47,6 +53,11 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -59,17 +70,17 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.SmokeTest">
-    <configuration name="ActionsClassHoverPractice" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.CreateCarTests.test1">
+    <configuration name="CreateCarTests" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="MyFirstSeleniumProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.day12.*" />
+          <option name="PATTERN" value="tests.vytrack.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tests.day12" />
-      <option name="MAIN_CLASS_NAME" value="tests.day12.ActionsClassHoverPractice" />
+      <option name="PACKAGE_NAME" value="tests.vytrack" />
+      <option name="MAIN_CLASS_NAME" value="tests.vytrack.CreateCarTests" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -77,16 +88,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DragAndDropPractice.test1" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="CreateCarTests.createCarTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="MyFirstSeleniumProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.day12.*" />
+          <option name="PATTERN" value="tests.vytrack.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tests.day12" />
-      <option name="MAIN_CLASS_NAME" value="tests.day12.DragAndDropPractice" />
+      <option name="PACKAGE_NAME" value="tests.vytrack" />
+      <option name="MAIN_CLASS_NAME" value="tests.vytrack.CreateCarTests" />
+      <option name="METHOD_NAME" value="createCarTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CreateCarTests.test1" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="MyFirstSeleniumProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.vytrack.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests.vytrack" />
+      <option name="MAIN_CLASS_NAME" value="tests.vytrack.CreateCarTests" />
       <option name="METHOD_NAME" value="test1" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -95,44 +124,35 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NewCalendarEventsTests" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="LoginTestsWithExcel.loginTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="MyFirstSeleniumProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.vytrack.*" />
+          <option name="PATTERN" value="tests.day20_ddt_with_excel.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tests.vytrack" />
-      <option name="MAIN_CLASS_NAME" value="tests.vytrack.NewCalendarEventsTests" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PACKAGE_NAME" value="tests.day20_ddt_with_excel" />
+      <option name="MAIN_CLASS_NAME" value="tests.day20_ddt_with_excel.LoginTestsWithExcel" />
+      <option name="METHOD_NAME" value="loginTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SmokeTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ReadTestDataFromExcelFile" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="MyFirstSeleniumProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.vytrack.*" />
+          <option name="PATTERN" value="tests.day22_Review.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tests.vytrack" />
-      <option name="MAIN_CLASS_NAME" value="tests.vytrack.SmokeTest" />
+      <option name="PACKAGE_NAME" value="tests.day22_Review" />
+      <option name="MAIN_CLASS_NAME" value="tests.day22_Review.ReadTestDataFromExcelFile" />
       <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="/Users/mncebe/IdeaProjects/MyFirstSeleniumProject/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="MyFirstSeleniumProject" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
       <method v="2">
@@ -141,11 +161,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.SmokeTest" />
-        <item itemvalue="TestNG./Users/mncebe/IdeaProjects/MyFirstSeleniumProject/testng.xml" />
-        <item itemvalue="TestNG.NewCalendarEventsTests" />
-        <item itemvalue="TestNG.DragAndDropPractice.test1" />
-        <item itemvalue="TestNG.ActionsClassHoverPractice" />
+        <item itemvalue="TestNG.CreateCarTests.test1" />
+        <item itemvalue="TestNG.CreateCarTests" />
+        <item itemvalue="TestNG.ReadTestDataFromExcelFile" />
+        <item itemvalue="TestNG.CreateCarTests.createCarTest" />
+        <item itemvalue="TestNG.LoginTestsWithExcel.loginTest" />
       </list>
     </recent_temporary>
   </component>

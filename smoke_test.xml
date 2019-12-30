@@ -23,3 +23,9 @@
     </test>
 </suite>
 
+
+
+        <!-- xml runners   what we use to create test suits.test suit is group of test
+         for example we create regretion suit we want to include all test in to one suit
+         we combine all test then we execute this xml file and test from different class run together
+        this is   smoke test in this suit-->

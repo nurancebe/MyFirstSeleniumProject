@@ -1,0 +1,18 @@
+TESTNG FRAMEWORKTest automation framework is an environment we write and execute tests.
+Test automation frameworks use different tools, designs in order to efficiently genetrate,
+run and report automated tests. In frameworks we use iffererent packages, folders to make
+them more efficient, undeerstable, scalable etc...Types of test automation frameworksdata
+driven frameworktest and data differnt, execute same test with different inputkeyword driven
+ frameworkin excel we have the test steps and also the test data.behaviour driven framework
+ will talk about it when we do cucumbercomponent based frameworktests are organized in packages
+ based on component/module page object model based framework uses page object modelhybrid driven
+  frameworkuses 2 or more of the types aboveJAVA —> our framework is written in javaMAVEN —>
+   build tool used to manage dependencies and plugins, run from terminalSELENIUM —> this is
+   used automate the browserINTELLIJ —> in our company we use intellij to write testsTESTNG —>
+   used to create, run tests, generate reports, building smoke/regression suites, do assertions,
+    testng--annotationsEXTENT REPORT —> used to generate html reports with steps, metrics, screen
+    shotsJDBC —> used to accessing the databaseREST ASSURED —> used for api testingAPACHE POI —>
+     read/write excel fileLOG4J —> used for loggingGit —> for version control JENKINS —> to schedule
+     automated smoke, regression etc testsWe do not do unit testing, performance testing, security,
+     safety, usability, load, stress testing with selenium.Selenium is for functional testing.
+ChallengesAchievements How to create framework from scratch

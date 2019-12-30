@@ -60,7 +60,7 @@ public abstract class TestBase {
 //         Writes test information from the started reporters to their output view
         extentReports.flush();
     }
-//@Optional makes optional//
+
     //        <parameter name="env_url" value="https://qa3.vytrack.com/"></parameter>
     @BeforeMethod
     @Parameters("env_url")
