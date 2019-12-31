@@ -2,19 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="663c423a-226e-4784-aa5e-0845125163f4" name="Default Changelist" comment="added page maximize funnction">
-      <change afterPath="$PROJECT_DIR$/AutomationFramework.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Review.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cars.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/day20_ddt_with_excel/LoginTestsWithExcel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/day22_Review/ReadTestDataFromExcelFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/whatsyourFrameWork" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day23_Notes.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/smoke_test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/smoke_test.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/TestBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/vytrack/CreateCarTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/vytrack/CreateCarTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/vytrack/CreateCarTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/vytrack/CreateCarTests.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -222,7 +212,14 @@
       <option name="project" value="LOCAL" />
       <updated>1577316770807</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="added page maximize funnction">
+      <created>1577678542705</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1577678542705</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
