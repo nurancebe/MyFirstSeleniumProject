@@ -48,6 +48,8 @@ public class PopupPractice {
             System.out.println(driver.findElement(By.id("result")).getText());
         }
 
+
+
         @Test(description = "Click on button 3, enter some text and then click OK")
         public void test3(){
             driver.findElement(By.linkText("JavaScript Alerts")).click();

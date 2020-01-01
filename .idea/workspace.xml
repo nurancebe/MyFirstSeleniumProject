@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="663c423a-226e-4784-aa5e-0845125163f4" name="Default Changelist" comment="added page maximize funnction">
-      <change afterPath="$PROJECT_DIR$/day23_Notes.txt" afterDir="false" />
+    <list default="true" id="663c423a-226e-4784-aa5e-0845125163f4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day23_Notes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/day23_Notes.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/day10/PopupPractice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/day10/PopupPractice.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -60,7 +60,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.CreateCarTests.test1">
+  <component name="RunManager" selected="TestNG.PopupPractice.test2">
     <configuration name="CreateCarTests" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="MyFirstSeleniumProject" />
       <extension name="coverage">
@@ -72,24 +72,6 @@
       <option name="PACKAGE_NAME" value="tests.vytrack" />
       <option name="MAIN_CLASS_NAME" value="tests.vytrack.CreateCarTests" />
       <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CreateCarTests.createCarTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="MyFirstSeleniumProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.vytrack.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests.vytrack" />
-      <option name="MAIN_CLASS_NAME" value="tests.vytrack.CreateCarTests" />
-      <option name="METHOD_NAME" value="createCarTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -114,17 +96,35 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoginTestsWithExcel.loginTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="PopupPractice.test1" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="MyFirstSeleniumProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.day20_ddt_with_excel.*" />
+          <option name="PATTERN" value="tests.day10.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tests.day20_ddt_with_excel" />
-      <option name="MAIN_CLASS_NAME" value="tests.day20_ddt_with_excel.LoginTestsWithExcel" />
-      <option name="METHOD_NAME" value="loginTest" />
+      <option name="PACKAGE_NAME" value="tests.day10" />
+      <option name="MAIN_CLASS_NAME" value="tests.day10.PopupPractice" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PopupPractice.test2" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="MyFirstSeleniumProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.day10.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests.day10" />
+      <option name="MAIN_CLASS_NAME" value="tests.day10.PopupPractice" />
+      <option name="METHOD_NAME" value="test2" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -151,11 +151,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.PopupPractice.test2" />
+        <item itemvalue="TestNG.PopupPractice.test1" />
         <item itemvalue="TestNG.CreateCarTests.test1" />
         <item itemvalue="TestNG.CreateCarTests" />
         <item itemvalue="TestNG.ReadTestDataFromExcelFile" />
-        <item itemvalue="TestNG.CreateCarTests.createCarTest" />
-        <item itemvalue="TestNG.LoginTestsWithExcel.loginTest" />
       </list>
     </recent_temporary>
   </component>
@@ -219,7 +219,14 @@
       <option name="project" value="LOCAL" />
       <updated>1577678542705</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="added page maximize funnction">
+      <created>1577762002814</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1577762002814</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

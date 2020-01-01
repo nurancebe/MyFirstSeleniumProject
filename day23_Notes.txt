@@ -689,3 +689,14 @@ one feature file one user story
 
 =====================================
 negative scenerio
+==============================
+case "chrome_headless": // running browser without interface
+
+     case "chrome_headless": // running browser without interface
+                    WebDriverManager.chromedriver().setup();
+                    //to configure chrome browser for tests
+                    ChromeOptions options = new ChromeOptions();
+                    //to run tests without interface, set to true
+                    options.setHeadless(true);
+                    driver = new ChromeDriver(options);
+                    break;
